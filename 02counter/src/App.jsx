@@ -11,9 +11,9 @@ function App() {
     if(counter<20) {
       console.log("Value Added",counter)
       setCounter((prevCounter)=> prevCounter+1)
-      setCounter((prevCounter)=> prevCounter+1)
-      setCounter((prevCounter)=> prevCounter+1)
-      setCounter((prevCounter)=> prevCounter+1)
+      // setCounter((prevCounter)=> prevCounter+1)
+      // setCounter((prevCounter)=> prevCounter+1)
+      // setCounter((prevCounter)=> prevCounter+1) //interview Question so that counter value directly pushes to times we callback it
       
     }
     else{
